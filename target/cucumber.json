@@ -1,0 +1,994 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "As a user I want to login successfully",
+        "description": "",
+        "id": "login;as-a-user-i-want-to-login-successfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15015878000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Homepage",
+            "match": {
+              "location": "LoginStep.i_am_on_the_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1812594200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on sign in",
+            "match": {
+              "location": "LoginStep.i_click_on_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233374700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter my email \"automationsoftskills@gmail.com\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "automationsoftskills@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStep.i_enter_my_email_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63577900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my password \"today01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "today01",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginStep.i_enter_my_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 896603600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on te sign in button",
+            "match": {
+              "location": "LoginStep.i_click_on_te_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37453200,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[]\u003e but was:\u003c[David Mike]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.LoginStep.iVerifyThatMyIsDisplayed(LoginStep.java:86)\r\n\tat ✽.Then I verify that my \"David Mike\" is displayed(Login.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "I verify that my \"David Mike\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David Mike",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStep.iVerifyThatMyIsDisplayed(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I sign out",
+            "match": {
+              "location": "LoginStep.i_sign_out()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SignIn"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "As a user I want to login successfully",
+        "description": "",
+        "id": "login;as-a-user-i-want-to-login-successfully;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13601022400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Homepage",
+            "match": {
+              "location": "LoginStep.i_am_on_the_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1302083000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on sign in",
+            "match": {
+              "location": "LoginStep.i_click_on_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 426199400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter my email \"mike261@gmail.com\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mike261@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStep.i_enter_my_email_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54292500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my password \"today01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "today01",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginStep.i_enter_my_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 889520700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on te sign in button",
+            "match": {
+              "location": "LoginStep.i_click_on_te_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36003100,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[]\u003e but was:\u003c[Mary Sara]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.LoginStep.iVerifyThatMyIsDisplayed(LoginStep.java:86)\r\n\tat ✽.Then I verify that my \"Mary Sara\" is displayed(Login.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "I verify that my \"Mary Sara\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mary Sara",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStep.iVerifyThatMyIsDisplayed(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I sign out",
+            "match": {
+              "location": "LoginStep.i_sign_out()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SignIn"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "As a user I want to login successfully",
+        "description": "",
+        "id": "login;as-a-user-i-want-to-login-successfully;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13499859100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Homepage",
+            "match": {
+              "location": "LoginStep.i_am_on_the_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1592946500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on sign in",
+            "match": {
+              "location": "LoginStep.i_click_on_sign_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164015800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter my email \"esther@yahoo.com\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "esther@yahoo.com",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStep.i_enter_my_email_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90466400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my password \"monday01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "monday01",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginStep.i_enter_my_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 898664200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on te sign in button",
+            "match": {
+              "location": "LoginStep.i_click_on_te_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39825200,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[]\u003e but was:\u003c[Esther agnes]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.LoginStep.iVerifyThatMyIsDisplayed(LoginStep.java:86)\r\n\tat ✽.Then I verify that my \"Esther agnes\" is displayed(Login.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "I verify that my \"Esther agnes\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Esther agnes",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStep.iVerifyThatMyIsDisplayed(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I sign out",
+            "match": {
+              "location": "LoginStep.i_sign_out()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SignIn"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13834071700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Homepage",
+            "match": {
+              "location": "LoginStep.i_am_on_the_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1589320500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on sign in",
+            "match": {
+              "location": "LoginStep.i_click_on_sign_in()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "As a registered user when I try to create an account with email already registered error message should be displayed",
+        "description": "",
+        "id": "register;as-a-registered-user-when-i-try-to-create-an-account-with-email-already-registered-error-message-should-be-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 205797000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter email addres that is already in use",
+            "match": {
+              "location": "LoginStep.iEnterEmailAddresThatIsAlreadyInUse()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127046400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the create account button",
+            "match": {
+              "location": "LoginStep.i_click_on_the_create_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 706315300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see an error message",
+            "match": {
+              "location": "LoginStep.i_should_see_an_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13810894800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Homepage",
+            "match": {
+              "location": "LoginStep.i_am_on_the_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1534181700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on sign in",
+            "match": {
+              "location": "LoginStep.i_click_on_sign_in()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Register New User",
+        "description": "",
+        "id": "register;register-new-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 148202700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter my new \"mary\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mary",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginStep.iEnterMyNewAddress(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102034300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on the create account button",
+            "match": {
+              "location": "LoginStep.i_click_on_the_create_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1361267700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on the male radio button",
+            "match": {
+              "location": "LoginStep.iClickOnTheMaleRadioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90504400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter a firstname \"Mary\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mary",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginStep.iEnterAFirstname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101494900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter a lastname \"Williams\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Williams",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginStep.iEnterALastname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93053400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter a password \"Sunday01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sunday01",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginStep.iEnterAPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 329582300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter date of birth",
+            "match": {
+              "location": "LoginStep.iEnterDateOfBirth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1892328700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on register button",
+            "match": {
+              "location": "LoginStep.iClickOnRegisterButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2122288300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am registered successfully",
+            "match": {
+              "location": "LoginStep.iAmRegisteredSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register",
+    "description": "",
+    "id": "register",
+    "keyword": "Feature",
+    "uri": "Register.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19714726500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Homepage",
+            "match": {
+              "location": "LoginStep.i_am_on_the_Homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "As a user I want to search for an item",
+        "description": "",
+        "id": "search-for-items;as-a-user-i-want-to-search-for-an-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1635662400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for \"shirt\" in the search input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shirt",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginStep.i_search_for_in_the_search_input_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29439500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I see search product listing page",
+            "match": {
+              "location": "LoginStep.i_see_search_product_listing_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1813711800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on the first item on page",
+            "match": {
+              "location": "LoginStep.i_click_on_the_first_item_on_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33069800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify search description \"Faded Short Sleeves T-shirt\" on the product page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Faded Short Sleeves T-shirt",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginStep.i_verify_search_description_on_the_product_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 147694800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I also see option to slect sizes",
+            "match": {
+              "location": "LoginStep.i_also_see_option_to_slect_sizes()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Search"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 34006308500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Homepage",
+            "match": {
+              "location": "LoginStep.i_am_on_the_Homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "As a user I want to search for an item and check if its available in stock",
+        "description": "",
+        "id": "search-for-items;as-a-user-i-want-to-search-for-an-item-and-check-if-its-available-in-stock",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22222095500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I search for \"shirt\" in the search input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shirt",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginStep.i_search_for_in_the_search_input_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39163300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I see search product listing page",
+            "match": {
+              "location": "LoginStep.i_see_search_product_listing_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1886864300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on the first item on page",
+            "match": {
+              "location": "LoginStep.i_click_on_the_first_item_on_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56309300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I verify search description \"Faded Short Sleeves T-shirt\" on the product page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Faded Short Sleeves T-shirt",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginStep.i_verify_search_description_on_the_product_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 175714200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I also see option to slect sizes",
+            "match": {
+              "location": "LoginStep.i_also_see_option_to_slect_sizes()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@Search"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 27033220200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Homepage",
+            "match": {
+              "location": "LoginStep.i_am_on_the_Homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "As a user I want to search for an item and check if its out of stock",
+        "description": "",
+        "id": "search-for-items;as-a-user-i-want-to-search-for-an-item-and-check-if-its-out-of-stock",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1743376200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I search for \"shirt\" in the search input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shirt",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginStep.i_search_for_in_the_search_input_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27203900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I see search product listing page",
+            "match": {
+              "location": "LoginStep.i_see_search_product_listing_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1690197700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on the first item on page",
+            "match": {
+              "location": "LoginStep.i_click_on_the_first_item_on_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35555000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I verify search description \"Faded Short Sleeves T-shirt\" on the product page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Faded Short Sleeves T-shirt",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginStep.i_verify_search_description_on_the_product_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 128710700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I also see option to slect sizes",
+            "match": {
+              "location": "LoginStep.i_also_see_option_to_slect_sizes()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@Search"
+          }
+        ]
+      }
+    ],
+    "name": "Search for Items",
+    "description": "",
+    "id": "search-for-items",
+    "keyword": "Feature",
+    "uri": "Search.feature"
+  }
+]

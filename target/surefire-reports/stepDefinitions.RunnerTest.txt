@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: stepDefinitions.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 63, Failures: 6, Errors: 0, Skipped: 3, Time elapsed: 201.383 sec <<< FAILURE! - in stepDefinitions.RunnerTest
+Then I verify that my "David Mike" is displayed(| automationsoftskills@gmail.com | today01 | David Mike |)  Time elapsed: 0.005 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]> but was:<[David Mike]>
+
+| automationsoftskills@gmail.com | today01 | David Mike |  Time elapsed: 0.005 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]> but was:<[David Mike]>
+
+Then I verify that my "Mary Sara" is displayed(| mike261@gmail.com | today01 | Mary Sara |)  Time elapsed: 0 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]> but was:<[Mary Sara]>
+
+| mike261@gmail.com | today01 | Mary Sara |  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]> but was:<[Mary Sara]>
+
+Then I verify that my "Esther agnes" is displayed(| esther@yahoo.com | monday01 | Esther agnes |)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]> but was:<[Esther agnes]>
+
+| esther@yahoo.com | monday01 | Esther agnes |  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]> but was:<[Esther agnes]>
+

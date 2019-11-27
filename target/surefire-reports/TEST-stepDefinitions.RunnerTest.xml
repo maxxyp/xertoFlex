@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="stepDefinitions.RunnerTest" time="201.383" tests="63" errors="0" skipped="3" failures="6">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Maxwell\IdeaProjects\xertoFlex"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Maxwell\IdeaProjects\xertoFlex"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Maxwell\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.6.1\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_211;C:\apache-maven-3.6.1\bin;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Users\Maxwell\AppData\Local\Microsoft\WindowsApps;C:\Users\Maxwell\AppData\Roaming\npm;;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.6.1\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.6.1\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Maxwell"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Maxwell"/>
+    <property name="java.class.path" value="C:\apache-maven-3.6.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_211\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.6.1\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given I am on the Homepage" classname="| automationsoftskills@gmail.com | today01 | David Mike |" time="0.001"/>
+  <testcase name="And I click on sign in" classname="| automationsoftskills@gmail.com | today01 | David Mike |" time="0"/>
+  <testcase name="And I enter my email &quot;automationsoftskills@gmail.com&quot; address" classname="| automationsoftskills@gmail.com | today01 | David Mike |" time="0"/>
+  <testcase name="And I enter my password &quot;today01&quot;" classname="| automationsoftskills@gmail.com | today01 | David Mike |" time="0"/>
+  <testcase name="When I click on te sign in button" classname="| automationsoftskills@gmail.com | today01 | David Mike |" time="0"/>
+  <testcase name="Then I verify that my &quot;David Mike&quot; is displayed" classname="| automationsoftskills@gmail.com | today01 | David Mike |" time="0.005">
+    <failure message="expected:&lt;[]&gt; but was:&lt;[David Mike]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[]> but was:<[David Mike]>
+]]></failure>
+    <system-out><![CDATA[
+]]></system-out>
+  </testcase>
+  <testcase name="| automationsoftskills@gmail.com | today01 | David Mike |" classname="| automationsoftskills@gmail.com | today01 | David Mike |" time="0.005">
+    <failure message="expected:&lt;[]&gt; but was:&lt;[David Mike]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[]> but was:<[David Mike]>
+]]></failure>
+  </testcase>
+  <testcase name="And I sign out" classname="| automationsoftskills@gmail.com | today01 | David Mike |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I am on the Homepage" classname="| mike261@gmail.com | today01 | Mary Sara |" time="0"/>
+  <testcase name="And I click on sign in" classname="| mike261@gmail.com | today01 | Mary Sara |" time="0"/>
+  <testcase name="And I enter my email &quot;mike261@gmail.com&quot; address" classname="| mike261@gmail.com | today01 | Mary Sara |" time="0"/>
+  <testcase name="And I enter my password &quot;today01&quot;" classname="| mike261@gmail.com | today01 | Mary Sara |" time="0"/>
+  <testcase name="When I click on te sign in button" classname="| mike261@gmail.com | today01 | Mary Sara |" time="0"/>
+  <testcase name="Then I verify that my &quot;Mary Sara&quot; is displayed" classname="| mike261@gmail.com | today01 | Mary Sara |" time="0">
+    <failure message="expected:&lt;[]&gt; but was:&lt;[Mary Sara]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[]> but was:<[Mary Sara]>
+]]></failure>
+    <system-out><![CDATA[
+]]></system-out>
+  </testcase>
+  <testcase name="| mike261@gmail.com | today01 | Mary Sara |" classname="| mike261@gmail.com | today01 | Mary Sara |" time="0.001">
+    <failure message="expected:&lt;[]&gt; but was:&lt;[Mary Sara]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[]> but was:<[Mary Sara]>
+]]></failure>
+  </testcase>
+  <testcase name="And I sign out" classname="| mike261@gmail.com | today01 | Mary Sara |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I am on the Homepage" classname="| esther@yahoo.com | monday01 | Esther agnes |" time="0"/>
+  <testcase name="And I click on sign in" classname="| esther@yahoo.com | monday01 | Esther agnes |" time="0"/>
+  <testcase name="And I enter my email &quot;esther@yahoo.com&quot; address" classname="| esther@yahoo.com | monday01 | Esther agnes |" time="0"/>
+  <testcase name="And I enter my password &quot;monday01&quot;" classname="| esther@yahoo.com | monday01 | Esther agnes |" time="0"/>
+  <testcase name="When I click on te sign in button" classname="| esther@yahoo.com | monday01 | Esther agnes |" time="0"/>
+  <testcase name="Then I verify that my &quot;Esther agnes&quot; is displayed" classname="| esther@yahoo.com | monday01 | Esther agnes |" time="0.001">
+    <failure message="expected:&lt;[]&gt; but was:&lt;[Esther agnes]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[]> but was:<[Esther agnes]>
+]]></failure>
+    <system-out><![CDATA[
+]]></system-out>
+  </testcase>
+  <testcase name="| esther@yahoo.com | monday01 | Esther agnes |" classname="| esther@yahoo.com | monday01 | Esther agnes |" time="0.001">
+    <failure message="expected:&lt;[]&gt; but was:&lt;[Esther agnes]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[]> but was:<[Esther agnes]>
+]]></failure>
+  </testcase>
+  <testcase name="And I sign out" classname="| esther@yahoo.com | monday01 | Esther agnes |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I am on the Homepage" classname="Scenario: As a registered user when I try to create an account with email already registered error message should be displayed" time="0"/>
+  <testcase name="And I click on sign in" classname="Scenario: As a registered user when I try to create an account with email already registered error message should be displayed" time="0"/>
+  <testcase name="And I enter email addres that is already in use" classname="Scenario: As a registered user when I try to create an account with email already registered error message should be displayed" time="0"/>
+  <testcase name="When I click on the create account button" classname="Scenario: As a registered user when I try to create an account with email already registered error message should be displayed" time="0"/>
+  <testcase name="Then I should see an error message" classname="Scenario: As a registered user when I try to create an account with email already registered error message should be displayed" time="0"/>
+  <testcase name="Scenario: As a registered user when I try to create an account with email already registered error message should be displayed" classname="Scenario: As a registered user when I try to create an account with email already registered error message should be displayed" time="0"/>
+  <testcase name="Given I am on the Homepage" classname="Scenario: Register New User" time="0"/>
+  <testcase name="And I click on sign in" classname="Scenario: Register New User" time="0"/>
+  <testcase name="And I enter my new &quot;mary&quot; address" classname="Scenario: Register New User" time="0"/>
+  <testcase name="And I click on the create account button" classname="Scenario: Register New User" time="0"/>
+  <testcase name="And I click on the male radio button" classname="Scenario: Register New User" time="0"/>
+  <testcase name="And I enter a firstname &quot;Mary&quot;" classname="Scenario: Register New User" time="0"/>
+  <testcase name="And I enter a lastname &quot;Williams&quot;" classname="Scenario: Register New User" time="0"/>
+  <testcase name="And I enter a password &quot;Sunday01&quot;" classname="Scenario: Register New User" time="0"/>
+  <testcase name="And I enter date of birth" classname="Scenario: Register New User" time="0"/>
+  <testcase name="When I click on register button" classname="Scenario: Register New User" time="0"/>
+  <testcase name="Then I am registered successfully" classname="Scenario: Register New User" time="0"/>
+  <testcase name="Scenario: Register New User" classname="Scenario: Register New User" time="0"/>
+  <testcase name="Given I am on the Homepage" classname="Scenario: As a user I want to search for an item" time="0"/>
+  <testcase name="And I search for &quot;shirt&quot; in the search input box" classname="Scenario: As a user I want to search for an item" time="0"/>
+  <testcase name="And I see search product listing page" classname="Scenario: As a user I want to search for an item" time="0"/>
+  <testcase name="When I click on the first item on page" classname="Scenario: As a user I want to search for an item" time="0"/>
+  <testcase name="Then I verify search description &quot;Faded Short Sleeves T-shirt&quot; on the product page" classname="Scenario: As a user I want to search for an item" time="0"/>
+  <testcase name="And I also see option to slect sizes" classname="Scenario: As a user I want to search for an item" time="0"/>
+  <testcase name="Scenario: As a user I want to search for an item" classname="Scenario: As a user I want to search for an item" time="0"/>
+  <testcase name="Given I am on the Homepage" classname="Scenario: As a user I want to search for an item and check if its available in stock" time="0"/>
+  <testcase name="And I search for &quot;shirt&quot; in the search input box" classname="Scenario: As a user I want to search for an item and check if its available in stock" time="0"/>
+  <testcase name="And I see search product listing page" classname="Scenario: As a user I want to search for an item and check if its available in stock" time="0"/>
+  <testcase name="When I click on the first item on page" classname="Scenario: As a user I want to search for an item and check if its available in stock" time="0"/>
+  <testcase name="Then I verify search description &quot;Faded Short Sleeves T-shirt&quot; on the product page" classname="Scenario: As a user I want to search for an item and check if its available in stock" time="0"/>
+  <testcase name="And I also see option to slect sizes" classname="Scenario: As a user I want to search for an item and check if its available in stock" time="0"/>
+  <testcase name="Scenario: As a user I want to search for an item and check if its available in stock" classname="Scenario: As a user I want to search for an item and check if its available in stock" time="0"/>
+  <testcase name="Given I am on the Homepage" classname="Scenario: As a user I want to search for an item and check if its out of stock" time="0"/>
+  <testcase name="And I search for &quot;shirt&quot; in the search input box" classname="Scenario: As a user I want to search for an item and check if its out of stock" time="0"/>
+  <testcase name="And I see search product listing page" classname="Scenario: As a user I want to search for an item and check if its out of stock" time="0"/>
+  <testcase name="When I click on the first item on page" classname="Scenario: As a user I want to search for an item and check if its out of stock" time="0"/>
+  <testcase name="Then I verify search description &quot;Faded Short Sleeves T-shirt&quot; on the product page" classname="Scenario: As a user I want to search for an item and check if its out of stock" time="0"/>
+  <testcase name="And I also see option to slect sizes" classname="Scenario: As a user I want to search for an item and check if its out of stock" time="0"/>
+  <testcase name="Scenario: As a user I want to search for an item and check if its out of stock" classname="Scenario: As a user I want to search for an item and check if its out of stock" time="0"/>
+</testsuite>

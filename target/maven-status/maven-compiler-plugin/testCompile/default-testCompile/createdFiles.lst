@@ -1,0 +1,9 @@
+pages\LoginPage.class
+stepDefinitions\RunnerTest.class
+pages\HomePage.class
+pages\RegisterPage.class
+pages\CommonPage.class
+stepDefinitions\LoginStep.class
+stepDefinitions\SearchStep.class
+stepDefinitions\RegisterStep.class
+pages\SearchPage.class
